@@ -2,10 +2,6 @@ main h1, h2 {
   color: #42636C;
 }
 
-section p, li, td {
-  font-size: x-large;
-}
-
 section h2 {
   padding: 10px 0px;
 }

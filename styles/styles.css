@@ -7,6 +7,11 @@
   padding: 20px 0px 0px 20px;
 }
 
+/* To make it easier to see when recording */
+.main-container p, td {
+  font-size: x-large;
+}
+
 .page-container {
   background: linear-gradient(0deg,#E6E6E6 28%, #E5E9EA);
 }
@@ -14,6 +19,7 @@
 .page-header {
   background-color: #7F9196;
   padding: 20px 0px 0px 20px;
+  font-size: x-large;
 }
 
 .page-header figcaption {
