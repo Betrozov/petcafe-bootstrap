@@ -1,0 +1,27 @@
+.main-container button {
+  background-color: #42636C;
+  color: white;
+}
+
+.main-container button:hover {
+  color: #E6E6E6
+}
+
+.main-container label, legend {
+  color: #42636C;
+  margin-top: 8pt;
+}
+
+.main-container fieldset label {
+  margin-top: 0pt;
+}
+
+.main-container input[type=radio]:focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+.main-container input[type=radio]:checked {
+  background-color: #42636C;
+}
