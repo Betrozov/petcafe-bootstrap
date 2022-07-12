@@ -15,18 +15,17 @@
   <link rel="stylesheet" href="styles/pet-detail.css">
 </head>
 
-<body>
+<body class="page-container">
   <div>
     <header class="page-header">
-      <h1></h1>
-      <figure class="page-header-figure">
-        <img src="images/pets.jpg" class="rounded-circle" alt="A dog and cat enjoying each other's company" height="100"
-          width="150">
-        <figcaption class="page-header-figcaption">Virtual Pet Cafe</figcaption>
-      </figure>
 
       <nav class="navbar navbar-light">
-        <div class="container-fluid">
+        <div class="container-fluid justify-content-start">
+          <figure class="navbar-brand">
+            <img src="images/pets.jpg" class="rounded-circle" alt="A dog and cat enjoying each other's company"
+              height="100" width="150">
+            <figcaption>Virtual Pet Cafe</figcaption>
+          </figure>
           <ul class="nav">
             <li class="nav-item">
               <a class="nav-link text-light" href="index.html">Home</a>
@@ -48,7 +47,7 @@
     <main class="container-fluid main-container">
       <div class="container">
         <div class="row align-items-end">
-          <div class="col-6">
+          <div class="col-md-6">
             <h1>Meet Yoyo</h1>
             <figure>
               <img src="images/yoyosittingonthefence.jpg" class="rounded-circle mx-auto detail-image-cropped"
@@ -56,7 +55,7 @@
               <figcaption>Yoyo enjoys being out in the backyard</figcaption>
             </figure>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <section>
               <h2>About Me</h2>
               <table class="table table-striped">
@@ -84,7 +83,7 @@
         </div>
 
         <div class="row">
-          <div class="col-8">
+          <div class="col-md-8">
             <section>
               <h2>My Story</h2>
               <p>I was adopted from a shelter and was so happy to find a home here at the cafe.</p>
@@ -98,8 +97,8 @@
                 When <span>I'm hungry</span>, I stand by my bowl.</p>
             </section>
           </div>
-          <div class="col-4">
-            <section>
+          <div class="col-md-4">
+            <section class="fun-facts">
               <h2>Fun Facts</h2>
               <ul>
                 <li>Yoyo loves to snuggle on your lap after a long day. He'll curl in a ball and nap.</li>
@@ -113,7 +112,9 @@
       </div>
 
     </main>
-    <footer>All content on this site &copy;Copyright - Virtual Pet Cafe, Inc</footer>
+    <div class="container-fluid footer-container border-top border-light">
+        <footer>All content on this site &copy;Copyright - Virtual Pet Cafe, Inc</footer>
+    </div>
   </div>
 </body>
 

@@ -1,26 +1,21 @@
-header {
-  font-size: x-large;
+.footer-container {
+  margin-top:100px;
+  background-color: #E6E6E6;
 }
 
 .main-container {
-  background: linear-gradient(0deg, #E6E6E6 28%, #E5E9EA);
   padding: 20px 0px 0px 20px;
-} 
-
-.main-container div {
-  font-size: large;
 }
 
-.page-header-figure {
-  width: 200px;
-  margin: 0px;
-}
-
-.page-header-figcaption {
-  color: white;
+.page-container {
+  background: linear-gradient(0deg,#E6E6E6 28%, #E5E9EA);
 }
 
 .page-header {
   background-color: #7F9196;
   padding: 20px 0px 0px 20px;
+}
+
+.page-header figcaption {
+  color: white;
 }

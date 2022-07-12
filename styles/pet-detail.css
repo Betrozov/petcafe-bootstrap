@@ -6,6 +6,25 @@ section p, li, td {
   font-size: x-large;
 }
 
+section h2 {
+  padding: 10px 0px;
+}
+
+span {
+  color: #42636C;
+}
+
+.fun-facts {
+  border: groove #7F9196;
+}
+
+.fun-facts h2 {
+  background-color: #7F9196;
+  color: white;
+  padding: 10px;
+
+}
+
 .detail-image-cropped {
   width: 300px;
   height: 300px;
