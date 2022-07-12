@@ -1,5 +1,9 @@
+main h1, h2, h3 {
+  color: #42636C;
+}
+
 .footer-container {
-  margin-top:100px;
+  margin-top: 100px;
   background-color: #E6E6E6;
 }
 
@@ -8,12 +12,12 @@
 }
 
 /* To make it easier to see when recording */
-.main-container p, td {
+.main-container p, td, label {
   font-size: x-large;
 }
 
 .page-container {
-  background: linear-gradient(0deg,#E6E6E6 28%, #E5E9EA);
+  background: linear-gradient(0deg, #E6E6E6 28%, #E5E9EA);
 }
 
 .page-header {
