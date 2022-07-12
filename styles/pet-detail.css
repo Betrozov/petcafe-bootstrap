@@ -1,0 +1,13 @@
+main h1, h2 {
+  color: #42636C;
+}
+
+section p, li, td {
+  font-size: x-large;
+}
+
+.detail-image-cropped {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
