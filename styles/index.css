@@ -1,3 +1,4 @@
+/* Draw a box around the data entry elements */
 .about-you {
   border: groove #7F9196;
   width: 50%
@@ -15,4 +16,9 @@
 
 .about-you-container {
   padding: 20px
+}
+
+/* Increase the size of the input entry elements */
+.form-control {
+  font-size: x-large;
 }
