@@ -38,13 +38,6 @@ input.form-check-input[type="radio"] {
   margin-top: 0pt;
 }
 
-/* Remove the blue focus around the radio button and checkbox */
-.main-container input[type=radio]:focus, input[type=checkbox]:focus {
-  box-shadow: none;
-  border: none;
-  outline: none;
-}
-
 /* Change the background color of the radio button and checkbox */
 .main-container input[type=radio]:checked, input[type=checkbox]:checked {
   background-color: #42636C;
