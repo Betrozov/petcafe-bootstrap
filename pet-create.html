@@ -18,13 +18,12 @@
 <body class="page-container">
   <header class="page-header">
     <nav class="navbar navbar-light">
-      <div class="container-fluid justify-content-start">
+      <div class="container-fluid">
         <figure class="navbar-brand">
           <img src="images/pets.jpg" class="rounded-circle" alt="A dog and cat enjoying each other's company"
             height="100" width="150">
           <figcaption>Virtual Pet Cafe</figcaption>
         </figure>
-
         <ul class="nav">
           <li class="nav-item">
             <a class="nav-link text-light" href="index.html">Home</a>
@@ -39,6 +38,9 @@
             <a class="nav-link text-light" href="my-pet-list.html">View My Pets</a>
           </li>
         </ul>
+        <div class="navbar-text ms-auto mb-0 text-light fs-1">
+          Come and play today!
+        </div>
       </div>
     </nav>
   </header>
@@ -51,7 +53,7 @@
         <div class="row">
           <div class="col-md-6">
             <label class="form-label" for="name">Pet's name:</label>
-            <input class="form-control" type="text" id="name" name="pet-name" required>
+            <input class="form-control input-lg" type="text" id="name" name="pet-name" required>
           </div>
           <div class="col-md-6">
             <label class="form-label" for="adoption-date">Virtual adoption date:</label>
@@ -65,11 +67,11 @@
               <legend>What type of pet?</legend>
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" id="dog" name="pet-type" value="dog" required>
-                <label class="form-label" for="dog">Dog</label>
+                <label class="form-check-label" for="dog">Dog</label>
               </div>
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" id="cat" name="pet-type" value="cat">
-                <label class="form-label" for="cat">Cat</label>
+                <label class="form-check-label" for="cat">Cat</label>
               </div>
             </fieldset>
 
@@ -85,7 +87,7 @@
           </div>
           <div class="col-md-6">
             <label class="form-label" for="backstory">Pet's backstory:</label>
-            <textarea class="form-control" id="backstory" name="pet-backstory" rows="9"></textarea>
+            <textarea class="form-control" id="backstory" name="pet-backstory" rows="7"></textarea>
           </div>
         </div>
 
@@ -95,7 +97,7 @@
             <input class="form-control" type="email" id="email" name="owners-email">
 
             <div class="form-check">
-              <input class="form-check-input mt-4" type="checkbox" id="mailing-list" name="add-to-mailing-list">
+              <input class="form-check-input" type="checkbox" id="mailing-list" name="add-to-mailing-list">
               <label class="form-check-label" for="mailing-list">Add me to your mailing list</label>
             </div>
           </div>

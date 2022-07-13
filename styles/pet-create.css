@@ -1,3 +1,23 @@
+/* Align the radio buttons to the text */
+input.form-check-input[type="radio"] {
+  margin-top: .3rem;
+}
+
+/* Align the checkboxes to the text
+   Increase the size of the checkbox and radio button */
+.form-check-input {
+  margin-top: 1.2em;
+  margin-right: .5em;
+  height: 30px;
+  width: 30px;
+}
+
+/* Increase the size of the input entry elements */
+.form-control, .form-select {
+  font-size: x-large;
+}
+
+/* Style the button */
 .main-container button {
   background-color: #42636C;
   color: white;
@@ -7,21 +27,25 @@
   color: #E6E6E6
 }
 
+/* Style the input element labels */
 .main-container label, legend {
   color: #42636C;
-  margin-top: 8pt;
+  margin-top: 12pt;
 }
 
+/* Don't add extra space within the fieldset */
 .main-container fieldset label {
   margin-top: 0pt;
 }
 
-.main-container input[type=radio]:focus {
+/* Remove the blue focus around the radio button and checkbox */
+.main-container input[type=radio]:focus, input[type=checkbox]:focus {
   box-shadow: none;
   border: none;
   outline: none;
 }
 
-.main-container input[type=radio]:checked {
+/* Change the background color of the radio button and checkbox */
+.main-container input[type=radio]:checked, input[type=checkbox]:checked {
   background-color: #42636C;
 }
