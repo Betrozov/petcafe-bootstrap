@@ -24,7 +24,7 @@
             height="100" width="150">
           <figcaption>Virtual Pet Cafe</figcaption>
         </figure>
-        <ul class="nav">
+        <ul class="nav me-auto">
           <li class="nav-item">
             <a class="nav-link text-light" href="index.html">Home</a>
           </li>
@@ -38,14 +38,14 @@
             <a class="nav-link text-light" href="my-pet-list.html">View My Pets</a>
           </li>
         </ul>
-        <div class="navbar-text ms-auto mb-0 text-light fs-1">
+        <div class="text-light fs-1">
           Come and play today!
         </div>
       </div>
     </nav>
   </header>
 
-  <main class="container-fluid main-container">
+  <main class="main-container">
     <div class="container">
       <article>
         <h1>Welcome to Virtual Pet Cafe!</h1>
@@ -59,26 +59,35 @@
         <p>
           <a href="pet-list.html">Find your new best friend, today.</a>
         </p>
-        <section class="about-you">
-          <h3>Tell us more about you</h3>
-          <div class="container about-you-container">
-            <div class="mb-3">
-              <label class="form-label" for="user-name">User name</label>
-              <input class="form-control" id="user-name" required maxlength="12">
-            </div>
-            <div class="mb-3">
-              <label class="form-label" for="favorite-pet-type">Favorite type of pet</label>
-              <input class="form-control" id="favorite-pet-type">
-            </div>
-          </div>
-        </section>
       </article>
+
+      <div class="row">
+        <div class="col-6">
+          <section class="about-you">
+            <div class="about-you-header">
+              <h3 class="m-0">Tell us more about you</h3>
+            </div>
+            <form class="about-you-container">
+              <div class="mb-3">
+                <label class="form-label" for="user-name">User name</label>
+                <input class="form-control" id="user-name" required maxlength="12">
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="favorite-pet-type">Favorite type of pet</label>
+                <input class="form-control" id="favorite-pet-type">
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
     </div>
   </main>
 
-  <div class="container-fluid footer-container border-top border-light">
-    <footer>All content on this site &copy;Copyright - Virtual Pet Cafe, Inc</footer>
-  </div>
+  <footer class="footer-container border-top border-light">
+    <div class="container-fluid">
+      <p class="mb-0">All content on this site &copy;Copyright - Virtual Pet Cafe, Inc</p>
+    </div>
+  </footer>
 </body>
 
 </html>

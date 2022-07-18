@@ -24,7 +24,7 @@
             height="100" width="150">
           <figcaption>Virtual Pet Cafe</figcaption>
         </figure>
-        <ul class="nav">
+        <ul class="nav me-auto">
           <li class="nav-item">
             <a class="nav-link text-light" href="index.html">Home</a>
           </li>
@@ -38,24 +38,24 @@
             <a class="nav-link text-light" href="my-pet-list.html">View My Pets</a>
           </li>
         </ul>
-        <div class="navbar-text ms-auto mb-0 text-light fs-1">
+        <div class="text-light fs-1">
           Come and play today!
         </div>
       </div>
     </nav>
   </header>
 
-  <main class="container-fluid main-container">
+  <main class="main-container">
     <div class="container">
-      <h1>Create a Custom Virtual Pet</h1>
+      <h1 class="mb-4">Create a Custom Virtual Pet</h1>
 
       <form action="index.html" method="get">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label" for="name">Pet's name:</label>
             <input class="form-control input-lg" type="text" id="name" name="pet-name" required>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label" for="adoption-date">Virtual adoption date:</label>
             <input class="form-control" type="date" id="adoption-date" name="pet-adoption-date">
           </div>
@@ -63,7 +63,7 @@
 
         <div class="row">
           <div class="col-md-6">
-            <fieldset>
+            <fieldset class="mb-3">
               <legend>What type of pet?</legend>
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" id="dog" name="pet-type" value="dog" required>
@@ -75,30 +75,40 @@
               </div>
             </fieldset>
 
-            <label class="form-label" for="breed">Pet's breed</label>
-            <select class="form-select" id="breed" name="pet-breed">
-              <option value="calico">Calico</option>
-              <option value="tabby">Tabby</option>
-              <option value="corgi">Corgi</option>
-            </select>
-
-            <label class="form-label" for="age">Pet's age:</label>
-            <input class="form-control" type="number" id="age" name="pet-age">
+            <div class="mb-3">
+              <label class="form-label" for="breed">Pet's breed</label>
+              <select class="form-select" id="breed" name="pet-breed">
+                <option value="calico">Calico</option>
+                <option value="tabby">Tabby</option>
+                <option value="corgi">Corgi</option>
+              </select>
+            </div>
+            
+            <div class="mb-3">
+              <label class="form-label" for="age">Pet's age:</label>
+              <input class="form-control" type="number" id="age" name="pet-age">
+            </div>
           </div>
           <div class="col-md-6">
-            <label class="form-label" for="backstory">Pet's backstory:</label>
-            <textarea class="form-control" id="backstory" name="pet-backstory" rows="7"></textarea>
+            <div class="mb-3">
+              <label class="form-label" for="backstory">Pet's backstory:</label>
+              <textarea class="form-control" id="backstory" name="pet-backstory" rows="7"></textarea>
+            </div>
           </div>
         </div>
 
         <div class="row">
           <div class="col-md-6">
-            <label class="form-label" for="email">Owner's email:</label>
-            <input class="form-control" type="email" id="email" name="owners-email">
+            <div class="mb-3">
+              <label class="form-label" for="email">Owner's email:</label>
+              <input class="form-control" type="email" id="email" name="owners-email">
+            </div>
 
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="mailing-list" name="add-to-mailing-list">
-              <label class="form-check-label" for="mailing-list">Add me to your mailing list</label>
+            <div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="mailing-list" name="add-to-mailing-list">
+                <label class="form-check-label" for="mailing-list">Add me to your mailing list</label>
+              </div>
             </div>
           </div>
 
@@ -111,9 +121,11 @@
     </div>
   </main>
 
-  <div class="container-fluid footer-container border-top border-light">
-    <footer>All content on this site &copy;Copyright - Virtual Pet Cafe, Inc</footer>
-  </div>
+  <footer class="footer-container border-top border-light">
+    <div class="container-fluid">
+      <p class="mb-0">All content on this site &copy;Copyright - Virtual Pet Cafe, Inc</p>
+    </div>
+  </footer>
 </body>
 
 </html>

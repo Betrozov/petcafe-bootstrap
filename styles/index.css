@@ -1,13 +1,15 @@
 /* Draw a box around the data entry elements */
 .about-you {
   border: groove #7F9196;
-  width: 50%
 }
 
-.about-you h3 {
+.about-you-header {
   background-color: #7F9196;
-  color: white;
   padding: 10px;
+}
+
+.about-you-header h3 {
+  color: white;
 }
 
 .about-you label {

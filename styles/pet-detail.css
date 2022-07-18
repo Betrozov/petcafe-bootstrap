@@ -2,7 +2,7 @@ section h2 {
   padding: 10px 0px;
 }
 
-span {
+.story span {
   color: #42636C;
 }
 
@@ -10,11 +10,16 @@ span {
   border: groove #7F9196;
 }
 
-.fun-facts h2 {
+.fun-facts .fun-facts-header {
   background-color: #7F9196;
-  color: white;
   padding: 10px;
+  margin-bottom: 0.5rem;
+}
 
+.fun-facts .fun-facts-header h2 {
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
 .detail-image-cropped {
